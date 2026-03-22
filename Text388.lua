@@ -22,6 +22,8 @@ local function getColor(name)
 		return Color3.fromRGB(255,0,0)
 	elseif string.find(name, "manager") then
 		return Color3.fromRGB(0,0,0)
+	elseif string.find(name, "ceo") then
+		return Color3.fromRGB(0,0,0)
 	elseif string.find(name, "roach") then
 		return Color3.fromRGB(139,69,19)
 	else
